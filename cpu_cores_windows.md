@@ -1,3 +1,7 @@
+## Windows VM
+
+1. wmic
+
 ```
 PS C:\Users\Administrator> wmic
 wmic:root\cli>CPU Get NumberOfCores,NumberOfLogicalProcessors /Format:List
