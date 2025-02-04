@@ -42,7 +42,9 @@ In this output:
 CPU(s): Shows the total number of logical processors (virtual cores). In this case, 8.
 Thread(s) per core: Shows the number of threads per physical core. Here, 2 (meaning hyper-threading is enabled).  
 Core(s) per socket: Shows the number of physical cores per socket. Here, 4.
-Socket(s): Shows the number of CPU sockets. Here, 1.
+Socket(s): Shows the number of CPU sockets. 
+
+Here, 1.
 To calculate:
 
 Physical Cores: Core(s) per socket x Socket(s) = 4 x 1 = 4
