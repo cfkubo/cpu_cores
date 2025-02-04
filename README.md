@@ -13,3 +13,13 @@ Scripts and files to understand physical to virtual cpu cores on a machine.
 <p align="center">
 <img src="files/image003.png" width="800" alt="Windows-screenshop" />
 </p>
+
+### CPU core on MAC
+```
+sysctl -a | grep -E "physical_cpu|logical_cpu|core_count"
+```
+Sample output:
+```
+$ sysctl -a | grep -E "physical_cpu|logical_cpu|core_count"
+machdep.cpu.core_count: 10
+```
