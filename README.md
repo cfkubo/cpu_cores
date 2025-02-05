@@ -1,5 +1,8 @@
 ### cpu_cores
+
 Scripts and files to understand physical to virtual cpu cores on a machine. 
+
+## Linux
 
 [Understanding Linux VM cpu cores - Physical/Virtual](https://github.com/cfkubo/cpu_cores/blob/main/cpu_cores_linux.md)
 
@@ -7,6 +10,7 @@ Scripts and files to understand physical to virtual cpu cores on a machine.
 <img src="files/linux.png" width="800" alt="linux-screenshop" />
 </p>
 
+## Windows
 
 [Understanding Windows VM cpu cores - Physical/Virtual](https://github.com/cfkubo/cpu_cores/blob/main/cpu_cores_windows.md)
 
@@ -14,7 +18,7 @@ Scripts and files to understand physical to virtual cpu cores on a machine.
 <img src="files/image003.png" width="800" alt="Windows-screenshop" />
 </p>
 
-### CPU core on MAC
+## MAC
 ```
 sysctl -a | grep -E "physical_cpu|logical_cpu|core_count"
 ```
